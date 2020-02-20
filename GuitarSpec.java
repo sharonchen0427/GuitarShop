@@ -25,10 +25,6 @@ public class GuitarSpec {
         }
 
         /**
-         * @return the serialNumber
-         */
-
-        /**
          * @return the builder
          */
         public Builder getBuilder() {
@@ -48,6 +44,10 @@ public class GuitarSpec {
         public Type getType() {
             return type;
         }
+
+    /**
+     * @return the numStrings
+     */
         public int getNumStrings(){
             return numStrings;
         }
@@ -81,11 +81,4 @@ public class GuitarSpec {
             return false;
         return true;
     }
-
-    /**
-         * @return the price
-         */
-
-
-
 }
